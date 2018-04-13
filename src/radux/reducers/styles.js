@@ -2,8 +2,8 @@ import {
     FONT_SIZE_SMALL,FONT_SIZE_MIDDLE,FONT_SIZE_LARGE,
     MAIN_BG_1,MAIN_BG_2,MAIN_BG_3,MAIN_BG_4,
     SWITCH_THEME_MODEL,SWITCH_STYLES_MODAL_STATE,
-} from '../constants/ActionTypes'
-import {MAIN_BGS,NO_SHOW_MODAL} from '../constants/DataConstants'
+} from '@app/radux/constants/ActionTypes'
+import {MAIN_BGS,NO_SHOW_MODAL} from '@app/radux/constants/DataConstants'
 
 const ARTICLE_MAIN_COLOR = '#000000'
 const ARTICLE_SECOND_COLOR = '#808080'

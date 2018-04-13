@@ -6,7 +6,7 @@ import {
     StyleSheet,
     Image
 } from 'react-native';
-import '../config/Global'
+import '@app/config/Global'
 export const tabOptions = (params) => {
     return {
         title: params.title,

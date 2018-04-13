@@ -18,7 +18,7 @@ thunk中间件就是判断如果返回的是函数，则不传导给reducer，�
 
 import {ADD_QUERY, COLLECT_ARTICLE,SAGA_TODAY_ARTICLE,SAGA_NEXT_ARTICLE,SAGA_PREV_ARTICLE,SAGA_RANDOM_ARTICLE,SPLASH_HIDE,SPLASH_SHOW,CHANGE_ARTICLE,
     FONT_SIZE_SMALL,FONT_SIZE_MIDDLE,FONT_SIZE_LARGE,MAIN_BG_1,MAIN_BG_2,MAIN_BG_3,MAIN_BG_4,SWITCH_THEME_MODEL,SWITCH_STYLES_MODAL_STATE
-} from '../constants/ActionTypes'
+} from '@app/radux/constants/ActionTypes'
 
 export const addQuery = (data) => ({
     type: ADD_QUERY,

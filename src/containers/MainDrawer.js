@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import {connect} from 'react-redux'
 import Drawer from 'react-native-drawer'
 import ArticlePage from './ArticlePage'
-import ControlPanel from '../containers/ControlPanel'
+import ControlPanel from '@app/containers/ControlPanel'
 
 class MainDrawer extends Component {
 

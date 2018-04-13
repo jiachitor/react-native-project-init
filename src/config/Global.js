@@ -1,13 +1,13 @@
 // 项目中的图片可以通过Images.xxx 获取
-import Images from '../assets/index';
+import Images from '@app/assets/index';
 import { Dimensions, Platform } from 'react-native';
 import { scaleSize, fontSize, isMobile, checkMobile, checkPassword, isEmpty, containsChinese } from './Tool';
-import AsyncStorage from '../utils/AsyncStorage';
-import Services from '../utils/Services';
+import AsyncStorage from '@app/utils/AsyncStorage';
+import Services from '@app/utils/Services';
 import MenuManager from './MenuManager'
 import ToastManager from './ToastManager';
 import { Theme } from 'teaset'
-import RouteHelper from '../router/RouteHelper';
+import RouteHelper from '@app/router/RouteHelper';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
 moment.locale('zh-cn');

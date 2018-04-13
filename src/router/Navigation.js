@@ -6,8 +6,8 @@ import {
 
 import { tabOptions } from './navigationConfig';
 import { configRoute } from './addToRouteStack'
-import Home from '../containers/HomePage';
-import Mine from '../containers/MinePage';
+import Home from '@app/containers/HomePage';
+import Mine from '@app/containers/MinePage';
 
 const Tab = TabNavigator({
     Home: {

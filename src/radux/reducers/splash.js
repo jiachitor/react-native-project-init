@@ -1,4 +1,4 @@
-import {SPLASH_SHOW, SPLASH_HIDE} from '../constants/ActionTypes'
+import {SPLASH_SHOW, SPLASH_HIDE} from '@app/radux/constants/ActionTypes'
 
 //刚进入时进行数据判断和请求，作用标记是否取消了screenpage和第一次是否请求结束
 const initialState = {

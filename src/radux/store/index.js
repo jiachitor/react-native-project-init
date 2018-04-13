@@ -1,16 +1,12 @@
-// import ceshiStore from './ceshiStore'
-// import ceshiStore11 from './ceshi1'
-// export default { ceshiStore, ceshiStore11 }
-
 import {applyMiddleware,createStore,compose} from 'redux'
 import createSagaMiddleware from 'redux-saga'
 import {persistStore, persistCombineReducers} from 'redux-persist'
 import reconciler from 'redux-persist/lib/stateReconciler/autoMergeLevel2'
 import storage from 'redux-persist/es/storage'
 
-import {logger,crashReporter} from '../middleware/loggerMiddleware'
-import rootReducers from '../reducers'
-import sagas from '../sagas'
+import {logger,crashReporter} from '@app/radux/middleware/loggerMiddleware'
+import rootReducers from '@app/radux/reducers'
+import sagas from '@app/radux/sagas'
 
 const sagaMiddleware = createSagaMiddleware()
 

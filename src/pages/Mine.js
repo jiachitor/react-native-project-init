@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-import NavigationBar from '../components/NavigationBar'
+import NavigationBar from '@app/components/NavigationBar'
 
 class Mine extends Component {
     backOnPress = () => {

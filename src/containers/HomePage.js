@@ -1,6 +1,6 @@
 import {connect} from 'react-redux'
-import AppWebView from '../pages/Home'
-import {addQuery} from '../radux/actions'
+import AppWebView from '@app/pages/Home'
+import {addQuery} from '@app/radux/actions'
 
 const mapStateToProps = (state) => ({
     query: state.home.query
